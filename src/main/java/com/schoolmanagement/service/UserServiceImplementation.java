@@ -20,7 +20,6 @@ public class UserServiceImplementation implements UserService{
 	@Autowired
 	private RoleRepository roleRepository;
 	
-
 	@Override
 	public User createUser(User user, Set<UserRole> userRole) throws Exception {
 		
