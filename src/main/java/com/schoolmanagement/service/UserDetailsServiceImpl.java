@@ -5,9 +5,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import com.examportal.helper.UserNotFoundException;
-import com.examportal.model.User;
-import com.examportal.repository.UserRepository;
+import com.schoolmanagement.helper.UserNotFoundException;
+import com.schoolmanagement.model.User;
+import com.schoolmanagement.repository.UserRepository;
 
 
 @Service

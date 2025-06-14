@@ -3,8 +3,8 @@ package com.schoolmanagement.service;
 import java.util.List;
 import java.util.Set;
 
-import com.examportal.model.User;
-import com.examportal.model.UserRole;
+import com.schoolmanagement.model.User;
+import com.schoolmanagement.model.UserRole;
 
 public interface UserService {
 	

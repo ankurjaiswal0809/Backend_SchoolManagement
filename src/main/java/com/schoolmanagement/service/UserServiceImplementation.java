@@ -2,12 +2,14 @@ package com.schoolmanagement.service;
 
 import java.util.List;
 import java.util.Set;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.examportal.model.User;
-import com.examportal.model.UserRole;
-import com.examportal.repository.RoleRepository;
-import com.examportal.repository.UserRepository;
+
+import com.schoolmanagement.model.User;
+import com.schoolmanagement.model.UserRole;
+import com.schoolmanagement.repository.RoleRepository;
+import com.schoolmanagement.repository.UserRepository;
 
 @Service
 public class UserServiceImplementation implements UserService{

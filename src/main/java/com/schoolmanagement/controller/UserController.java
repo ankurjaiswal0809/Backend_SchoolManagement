@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import com.examportal.helper.UserNotFoundException;
-import com.examportal.model.Role;
-import com.examportal.model.User;
-import com.examportal.model.UserRole;
-import com.examportal.service.UserService;
+import com.schoolmanagement.helper.UserNotFoundException;
+import com.schoolmanagement.model.Role;
+import com.schoolmanagement.model.User;
+import com.schoolmanagement.model.UserRole;
+import com.schoolmanagement.service.UserService;
 
 @RestController
 @RequestMapping("/user")

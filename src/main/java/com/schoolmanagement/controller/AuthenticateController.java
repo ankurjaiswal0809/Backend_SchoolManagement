@@ -10,11 +10,11 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.examportal.config.JwtUtils;
-import com.examportal.helper.UserNotFoundException;
-import com.examportal.model.JwtRequest;
-import com.examportal.model.JwtResponse;
-import com.examportal.service.UserDetailsServiceImpl;
+import com.schoolmanagement.config.JwtUtils;
+import com.schoolmanagement.helper.UserNotFoundException;
+import com.schoolmanagement.model.JwtRequest;
+import com.schoolmanagement.model.JwtResponse;
+import com.schoolmanagement.service.UserDetailsServiceImpl;
 
 @RestController
 public class AuthenticateController {

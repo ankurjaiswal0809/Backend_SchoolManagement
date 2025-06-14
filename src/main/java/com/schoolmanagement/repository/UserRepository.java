@@ -1,7 +1,7 @@
 package com.schoolmanagement.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.examportal.model.User;
+import com.schoolmanagement.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 
